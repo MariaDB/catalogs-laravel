@@ -1443,12 +1443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MariaDB/catalogs-php.git",
-                "reference": "8b4a69e8ae1df9e66dc81e10e48400e6b9bc199a"
+                "reference": "bd23ecdd4710ff07746ab437900df4290e0d426d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MariaDB/catalogs-php/zipball/8b4a69e8ae1df9e66dc81e10e48400e6b9bc199a",
-                "reference": "8b4a69e8ae1df9e66dc81e10e48400e6b9bc199a",
+                "url": "https://api.github.com/repos/MariaDB/catalogs-php/zipball/bd23ecdd4710ff07746ab437900df4290e0d426d",
+                "reference": "bd23ecdd4710ff07746ab437900df4290e0d426d",
                 "shasum": ""
             },
             "require": {
@@ -1476,7 +1476,7 @@
                 "issues": "https://github.com/MariaDB/catalogs-php/issues",
                 "source": "https://github.com/MariaDB/catalogs-php/tree/main"
             },
-            "time": "2024-03-17T15:40:38+00:00"
+            "time": "2024-03-17T16:49:56+00:00"
         },
         {
             "name": "monolog/monolog",

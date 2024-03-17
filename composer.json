@@ -1,0 +1,26 @@
+{
+    "name": "mariadb/catalogs-laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexander Gerber",
+            "email": "alex.gerber90@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MariaDB\\CatalogLaravel\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^10",
+        "mariadb/catalogs-php": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MariaDB\\CatalogLaravel\\MariaDBCatalogsServiceProvider"
+            ]
+        }
+    }
+}

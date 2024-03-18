@@ -2,7 +2,7 @@
 
 namespace MariaDB\CatalogLaravel;
 
-use Mariadb\CatalogsPHP\Catalog;
+use Mariadb\CatalogsPHP\CatalogManager;
 
 /**
  * @method int create(string $catName, string $catUser = null, string $catPassword=null, array $args=null)
@@ -13,7 +13,7 @@ use Mariadb\CatalogsPHP\Catalog;
 class CatalogsSingeltonWrapper
 {
     private static ?CatalogsSingeltonWrapper $instance = null;
-    private static ?Catalog $catalogInstance = null;
+    private static ?CatalogManager $catalogInstance = null;
 
     public static function getInstance($pdo): CatalogsSingeltonWrapper
     {
@@ -21,9 +21,9 @@ class CatalogsSingeltonWrapper
             self::$instance = new CatalogsSingeltonWrapper();
 
             if(is_array($pdo)){
-                self::$catalogInstance = new Catalog($pdo['host'], $pdo['port'], $pdo['username'], $pdo['password'], null);
+                self::$catalogInstance = new CatalogManager($pdo['host'], $pdo['port'], $pdo['username'], $pdo['password'], null);
             } else {
-                self::$catalogInstance = new Catalog('', 0, '', '', null, $pdo);
+                self::$catalogInstance = new CatalogManager('', 0, '', '', null, $pdo);
             }
         }
 

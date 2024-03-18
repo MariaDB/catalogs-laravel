@@ -2,7 +2,7 @@
 
 namespace MariaDB\CatalogLaravel;
 
-use Mariadb\CatalogsPHP\Catalog;
+use Mariadb\CatalogsPHP\CatalogManager;
 use Illuminate\Database\DatabaseManager;
 
 /**

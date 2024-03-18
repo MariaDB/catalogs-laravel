@@ -2,7 +2,7 @@
 
 namespace MariaDB\CatalogLaravel\Database\Support\Facades;
 
-use Illuminate\Support\Facades;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * @method int create(string $catName, string $catUser = null, string $catPassword=null, array $args=null)

@@ -8,6 +8,7 @@ use Illuminate\Support\ServiceProvider;
 use MariaDB\CatalogLaravel\Database\MariaDBCatalogsConnection;
 use Illuminate\Database\Eloquent\Model;
 use MariaDB\CatalogLaravel\Console\Commands\CatalogsCommand;
+use MariaDB\CatalogLaravel\CatalogsManager;
 
 
 class MariaDBCatalogsServiceProvider extends ServiceProvider
@@ -46,6 +47,8 @@ class MariaDBCatalogsServiceProvider extends ServiceProvider
         });
 
         $this->registerCommands($this->commands);
+
+        $this->app->alias(CatalogsManager::class, 'catalogs');
     }
 
     /**

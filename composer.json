@@ -1,12 +1,7 @@
 {
     "name": "mariadb/catalogs-laravel",
     "type": "library",
-    "authors": [
-        {
-            "name": "Alexander Gerber",
-            "email": "alex.gerber90@gmail.com"
-        }
-    ],
+    "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
             "MariaDB\\CatalogLaravel\\": "src/"

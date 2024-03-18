@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace MariaDB\CatalogLaravel;
+namespace MariaDB\CatalogsLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use MariaDB\CatalogLaravel\Database\MariaDBCatalogsConnection;
+use MariaDB\CatalogsLaravel\Database\MariaDBCatalogsConnection;
 use Illuminate\Database\Eloquent\Model;
-use MariaDB\CatalogLaravel\Console\Commands\CatalogsCommand;
-use MariaDB\CatalogLaravel\CatalogsManager;
+use MariaDB\CatalogsLaravel\Console\Commands\CatalogsCommand;
+use MariaDB\CatalogsLaravel\CatalogsManager;
 
 
 class MariaDBCatalogsServiceProvider extends ServiceProvider

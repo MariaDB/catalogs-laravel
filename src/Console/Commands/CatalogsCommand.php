@@ -1,6 +1,6 @@
 <?php
 
-namespace MariaDB\CatalogLaravel\Console\Commands;
+namespace MariaDB\CatalogsLaravel\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\DatabaseManager;

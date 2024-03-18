@@ -4,7 +4,7 @@
     "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
-            "MariaDB\\CatalogLaravel\\": "src/"
+            "MariaDB\\CatalogsLaravel\\": "src/"
         }
     },
     "require": {
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MariaDB\\CatalogLaravel\\MariaDBCatalogsServiceProvider"
+                "MariaDB\\CatalogsLaravel\\MariaDBCatalogsServiceProvider"
             ]
         }
     }

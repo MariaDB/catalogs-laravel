@@ -1,9 +1,9 @@
 <?php
 
-namespace MariaDB\CatalogLaravel\Database;
+namespace MariaDB\CatalogsLaravel\Database;
 
 use Illuminate\Database\MySqlConnection;
-use MariaDB\CatalogLaravel\CatalogsSingeltonWrapper;
+use MariaDB\CatalogsLaravel\CatalogsSingeltonWrapper;
 
 class MariaDBCatalogsConnection extends MySqlConnection
 {

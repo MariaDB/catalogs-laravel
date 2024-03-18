@@ -1,6 +1,6 @@
 <?php
 
-namespace MariaDB\CatalogLaravel;
+namespace MariaDB\CatalogsLaravel;
 
 use Mariadb\CatalogsPHP\CatalogManager;
 use Illuminate\Database\DatabaseManager;

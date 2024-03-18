@@ -1,10 +1,10 @@
 <?php
 
-namespace MariaDB\CatalogLaravel\Database\Schema;
+namespace MariaDB\CatalogsLaravel\Database\Schema;
 
 use Illuminate\Database\Schema\Builder;
 use Illuminate\Database\Connection;
-use MariaDB\CatalogLaravel\Database\CatalogsSingeltonWrapper;
+use MariaDB\CatalogsLaravel\Database\CatalogsSingeltonWrapper;
 
 /**
  * Class MariaDBCatalogsBuilder

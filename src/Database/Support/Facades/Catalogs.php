@@ -1,6 +1,6 @@
 <?php
 
-namespace MariaDB\CatalogLaravel\Database\Support\Facades;
+namespace MariaDB\CatalogsLaravel\Database\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

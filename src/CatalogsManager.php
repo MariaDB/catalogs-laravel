@@ -22,7 +22,7 @@ class CatalogsManager
 
     public function __call($name, $arguments) 
     {
-        return $this->db->mariadb_catalogs->getCatalogsSingeltonWrapper()->$name(...$arguments);
+        return $this->db->connection('mariadb_catalogs')->getCatalogsSingeltonWrapper()->$name(...$arguments);
     }
 
 }
